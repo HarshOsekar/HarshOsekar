@@ -1,16 +1,24 @@
-## Hi there 👋
+# 👋 Hi there, I'm Harsh Osekar
 
-<!--
-**HarshOsekar/HarshOsekar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Diploma & Bachelor's in Electronics and Communication  
+💻 Learning DevOps | Ansible | Terraform | AWS | Python | Disaster recovery planning 
+🚀 Open to job opportunities in cloud & automation roles  
+📚 Currently building my GitHub skills and portfolio
 
-Here are some ideas to get you started:
+## 🔧 Tools & Technologies
+- Git & GitHub
+- Linux & Shell scripting
+- Ansible & Terraform
+- Python scripting
+- AWS basics (EC2, S3, IAM)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📂 My Repositories
+- [git-practice](https://github.com/HarshOsekar/git-practice) – My first hands-on Git repo
+
+## 📫 How to reach me:
+- ✉️ Email: harshosekar@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/harshosekar/
+
+---
+> “The best way to learn is by building.”  
+Let’s build something great together!
