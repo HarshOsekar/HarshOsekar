@@ -1,27 +1,16 @@
 resource "aws_security_group" "harsh_ec2_sg" {
   name        = "harsh-ec2-sg"
-  description = "Allow SSH, HTTP, and HTTPS"
-  vpc_id      = "default"  # We'll replace this later with real VPC ID
+  description = "Allow SSH, Jekins, HTTP, and HTTPS"
+  vpc_id      = "default"
 
-  ingress {
-    from_port   = 22
-    to_port     = 22
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
-  ingress {
-    from_port   = 80
-    to_port     = 80
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
-  ingress {
-    from_port   = 443
-    to_port     = 443
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+  dynamic "ingress" {
+    for_each = toset([22, 8080, 80, 443])
+    content {
+      from_port   = ingress.value
+      to_port     = ingress.value
+      protocol    = "tcp"
+      cidr_blocks = ["0.0.0.0/0"]
+    }
   }
 
   egress {
