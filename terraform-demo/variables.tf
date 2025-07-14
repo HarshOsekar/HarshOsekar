@@ -22,7 +22,6 @@ variable "ami" {
 }
 
 variable "tags" {
-    description = "EC2 instance tag"
-    type = string
-    default = "Webserver"
+  description = "Tags for AWS resources"
+  type        = map(string)
 }
