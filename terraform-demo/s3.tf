@@ -5,6 +5,6 @@
 # }
 
 resource "aws_s3_bucket" "my_first_bucket" {
-  bucket = "harsh-demo-s3-bucket-123456"
+  bucket = var.bucket_name
   acl    = "private"
 }
