@@ -1,1 +1,1 @@
-print("Hello from test.py!")
+print("Hello from GitHub Python script executed by Jenkins!")
